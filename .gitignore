@@ -4,11 +4,10 @@
 # Unignore all with extensions
 !*.*
 
-# Unignore all dirs
-!*/
-
-# Ignore object files
+# Ignore object files and more
 *.o
+*.tar*
+*.swp
 
 # Unignore Makefile and makefile
 !Makefile
